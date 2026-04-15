@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "admin-dashboard-ui",
+			"path": "../.."
+		},
+		{
+			"name": "public",
+			"path": "../../../../EcomDashboard/frontend/my-admin/public"
+		}
+	],
+	"settings": {}
+}
