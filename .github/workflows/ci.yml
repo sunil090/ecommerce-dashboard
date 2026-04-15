@@ -1,4 +1,4 @@
-name: Frontend CI
+name: Full Stack CI
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
       - name: Install frontend
         run: |
           cd frontend
-          npm install
+          npm install --legacy-peer-deps
 
       - name: Build frontend
         run: |
