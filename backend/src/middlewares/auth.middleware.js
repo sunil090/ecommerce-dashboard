@@ -3,7 +3,7 @@ const { verifyToken } = require("../utils/token");
 const tokenRepo = require("../repositories/token.repository");
 const userRepo = require("../repositories/user.repository");
 const { authorize } = require("./authorization.middleware");
-const ApiError = require("../utils/ApiError");
+const ApiError = require("../utils/apiError");
 function looksLikeInteger(v) {
   // allow numeric strings like "1", disallow UUIDs and other chars
   return typeof v === "string" && /^[0-9]+$/.test(v);
