@@ -37,7 +37,7 @@ module.exports = {
         type: Sequelize.UUID,
         allowNull: false,
         references: {
-          model: 'Brands',  // Ensure this is the correct table name for the Brand model
+        model: 'brands'  // Ensure this is the correct table name for the Brand model
           key: 'id',        // Foreign key references the 'id' column in the Brands table
         },
       },
@@ -45,7 +45,7 @@ module.exports = {
         type: Sequelize.UUID,
         allowNull: false,
         references: {
-          model: 'Categories',  // Ensure this is the correct table name for the Category model
+         model: 'categories'  // Ensure this is the correct table name for the Category model
           key: 'id',            // Foreign key references the 'id' column in the Categories table
         },
       },
