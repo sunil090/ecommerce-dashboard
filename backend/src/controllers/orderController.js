@@ -1,5 +1,5 @@
 const OrderService = require('../services/order.service');
-const ApiError = require('../utils/ApiError');
+const ApiError = require('../utils/apiError');
 const http = require('http');
 
 function normalizeToApiError(err) {
